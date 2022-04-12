@@ -9,7 +9,7 @@ Note: In this document, I will describe how to set up CAN bus for Voron Trident 
 ![CANbus](https://user-images.githubusercontent.com/1135694/162856506-6330400c-a5a5-4562-9a6e-6aa23f4b3afb.jpg)
 
 ## Required hardware
-- Huvud CAN bus toolhead PCB
+- Huvud 0.61 CAN bus toolhead PCB
 - 120 Ohm SMD resistor
 - Waveshare RS-485/CAN HAT for Raspberry Pi
 - Raspberry Pi 3 or greater (cannot use Pi 0W or Pi 0W2)
@@ -28,9 +28,17 @@ https://github.com/GiulianoM/LGX_Lite_Stealthburner_CW2_style_mount (Use the ECR
 - https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Y_Endstop_Relocation
 - https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%20Trident/Trident_Y_Endstop_Relocation
 
-# Huvud CAN bus toolhead PCB, 120 Ohm resistor and StealthBurner LEDs
+# Huvud CAN bus toolhead PCB, 120 Ohm resistor, flashing Klipper, StealthBurner LEDs.
+
+### Toolhead PCB
 
 https://github.com/bondus/KlipperToolboard
+
+### 120 Ohm resistor
+
+### Flashing Klipper to the PCB
+
+### StealthBurner LEDs
 
 ![image](https://user-images.githubusercontent.com/1135694/162858974-d1b0f9a2-3e10-4860-9d04-e1ebaf53817c.png)
 
