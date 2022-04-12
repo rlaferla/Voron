@@ -45,6 +45,7 @@ https://github.com/bondus/KlipperToolboard
 # CAN bus adapter for Pi
 
 https://www.waveshare.com/rs485-can-hat.htm
+Note:  Newer Waveshare boards have a 12M clock and not a 8M!
 
 # Cable
 
