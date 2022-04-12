@@ -52,6 +52,10 @@ printer.cfg
 canbus_uuid: xxxxxxxxxxxx ; where xxxxxxxxx is the unique ID of your specific CAN bus toolhead
 ```
 
+To find the UUID of your CAN bus controller:
+
+```~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0```
+
 bondtech_lgx_lite.cfg
 ```[extruder]
 step_pin: can_mcu:PB3
