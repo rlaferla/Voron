@@ -36,6 +36,8 @@ https://github.com/bondus/KlipperToolboard
 
 ### 120 Ohm resistor
 
+![image](https://user-images.githubusercontent.com/1135694/162861007-ee1593db-96d3-4d6c-a6a3-03a693e07703.png)
+
 ### Flashing Klipper to the PCB
 
 ### StealthBurner LEDs
@@ -54,6 +56,9 @@ Note:  Newer Waveshare boards have a 12M clock and not a 8M!
 
 You will need an umbilical cable with four 20 AWG conductors.  Ideally, two of the conductors are twisted (for CAN-L and CAN-H) and the overall cable has a shield.  Igus makes one but I find it to be too large and stiff to use as an umbilical.  Instead I use a non-twisted cable from Molex.  Some users using Ethernet cable.  It is critical that you use 20 AWG wire for power and ground!
 
+![image](https://user-images.githubusercontent.com/1135694/162861039-06db6c08-f04a-4e2b-9474-34562b75e560.png)
+
+ages.githubusercontent.com/1135694/162861028-d51ea5fb-06ed-4bfc-ac5b-574683ae597d.png)
 
 
 # Klipper configuration
