@@ -35,30 +35,25 @@ https://github.com/GiulianoM/LGX_Lite_Stealthburner_CW2_style_mount (Use the ECR
 https://github.com/bondus/KlipperToolboard
 
 ## PINs
-
-Extruder
-Step: PB3
-Dir: PB4
-Enable: PB5
-UART TX: PA9
-UART RX: PA10
-
-Thermistor 1 - PA0
-Thermistor 2 - PA1
-
-Heater - PA6
-
-Fan 1 - PA7
-Fan 0 - PA8
-
-Endstop 1 - PB10
-Endstop 2 - PB11
-Endstop 3 - PB12
-
-ADXL CS pin - PB1
-Diag for TMC2209? - PA15
-SWDIO PA13
-CLK PA14
+|Name|Pin|
+|---|---|
+|Step|PB3|
+|Dir|PB4|
+|Enable|PB5|
+|UART TX|PA9|
+|UART RX|PA10|
+|Thermistor 1|PA0|
+|Thermistor 2|PA1|
+|Heater|PA6|
+|Fan 0|PA8|
+|Fan 1|PA7|
+|Endstop 1|PB10|
+|Endstop 2|PB11|
+|Endstop 3|PB12|
+|ADXL CS|PB1|
+|Diag for TMC2209?|PA15|
+|SWDIO|PA13|
+|CLK|PA14|
 
 ### 120 Ohm resistor
 
