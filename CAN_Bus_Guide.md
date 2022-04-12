@@ -47,6 +47,9 @@ https://github.com/bondus/KlipperToolboard
 https://www.waveshare.com/rs485-can-hat.htm
 Note:  Newer Waveshare boards have a 12M clock and not a 8M!
 
+![image](https://user-images.githubusercontent.com/1135694/162860544-40ec0002-9426-4fb1-b7a4-35897b54e892.png)
+
+
 # Cable
 
 You will need an umbilical cable with four 20 AWG conductors.  Ideally, two of the conductors are twisted (for CAN-L and CAN-H) and the overall cable has a shield.  Igus makes one but I find it to be too large and stiff to use as an umbilical.  Instead I use a non-twisted cable from Molex.  Some users using Ethernet cable.  It is critical that you use 20 AWG wire for power and ground!
