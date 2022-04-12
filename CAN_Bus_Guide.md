@@ -58,7 +58,7 @@ You will need an umbilical cable with four 20 AWG conductors.  Ideally, two of t
 
 ![image](https://user-images.githubusercontent.com/1135694/162861039-06db6c08-f04a-4e2b-9474-34562b75e560.png)
 
-ages.githubusercontent.com/1135694/162861028-d51ea5fb-06ed-4bfc-ac5b-574683ae597d.png)
+![image](https://user-images.githubusercontent.com/1135694/162861108-7658c4e3-04b1-4860-bede-5ebf159d42e1.png)
 
 
 # Klipper configuration
