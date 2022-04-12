@@ -11,5 +11,6 @@ CAN (Controller Area Network) bus is a standard that allows microcontrollers and
 - Waveshare RS-485/CAN HAT for Raspberry Pi
 - Raspberry Pi 3 or greater (cannot use Pi 0W or Pi 0W2)
 - CAN bus cable
+- Mechanical probe (Klicky, Euclid, Unklicky, etc...)
 - Various mounts
 
