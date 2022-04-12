@@ -14,3 +14,12 @@ CAN (Controller Area Network) bus is a standard that allows microcontrollers and
 - Mechanical probe (Klicky, Euclid, Unklicky, etc...)
 - Various mounts
 
+# Mounts
+
+# X and Y Endstop Relocation
+
+# Cable
+
+# Klipper configuration
+
+
