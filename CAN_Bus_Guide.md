@@ -61,6 +61,10 @@ https://github.com/bondus/KlipperToolboard
 
 ### Flashing Klipper to the PCB
 
+To flash the Huvud PCB, you must connect a cable to the microUSB port on the Huvud.
+
+You must put a jumper on the pins BOOT1 and 3.3V then power cycle the board to put it into bootloader mode (green LED will flash quickly.) Flash with the command "make flash FLASH_DEVICE=1209:beba"
+
 ### StealthBurner LEDs
 
 ![image](https://user-images.githubusercontent.com/1135694/162858974-d1b0f9a2-3e10-4860-9d04-e1ebaf53817c.png)
