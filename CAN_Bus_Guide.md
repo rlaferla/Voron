@@ -1,4 +1,6 @@
-# Voron CAN bus guide
+# Voron CAN bus guide (BETA)
+
+* BETA - File an issue for anything that is missing or incorrect. *
 
 ## Overview
 
