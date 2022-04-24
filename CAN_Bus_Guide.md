@@ -59,11 +59,6 @@ https://github.com/bondus/KlipperToolboard
 
 ![image](https://user-images.githubusercontent.com/1135694/162861007-ee1593db-96d3-4d6c-a6a3-03a693e07703.png)
 
-### Flashing Klipper to the PCB
-
-To flash the Huvud PCB, you must connect a cable to the microUSB port on the Huvud.
-
-You must put a jumper on the pins BOOT1 and 3.3V then power cycle the board to put it into bootloader mode (green LED will flash quickly.) Flash with the command "make flash FLASH_DEVICE=1209:beba"
 
 ### StealthBurner LEDs
 
@@ -85,6 +80,13 @@ You will need an umbilical cable with four 20 AWG conductors.  Ideally, two of t
 
 ![image](https://user-images.githubusercontent.com/1135694/162861108-7658c4e3-04b1-4860-bede-5ebf159d42e1.png)
 
+### Flashing Klipper to the PCB
+
+To flash the Huvud PCB, you must connect a cable to the microUSB port on the Huvud.
+
+You must put a jumper on the pins BOOT1 and 3.3V then power cycle the board to put it into bootloader mode (green LED will flash quickly.) Flash with the command "make flash FLASH_DEVICE=1209:beba"
+
+![image](https://user-images.githubusercontent.com/1135694/164993081-ebe8b1d1-c330-4e2b-bc01-f979f5b142c8.png)
 
 # Klipper configuration
 
