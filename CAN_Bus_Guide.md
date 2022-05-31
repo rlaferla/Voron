@@ -90,6 +90,18 @@ You must put a jumper on the pins BOOT1 and 3.3V then power cycle the board to p
 
 ![image](https://user-images.githubusercontent.com/1135694/164993081-ebe8b1d1-c330-4e2b-bc01-f979f5b142c8.png)
 
+# CAN bus configuration
+
+These values are for the CANable.  You may have to reduce the bitrate to 250000 and txqueuelen to 128 for the Waveshare adapter and even then you may have communication timeouts.
+
+```
+/etc/network/interfaces.d/can0
+auto can0
+iface can0 can static
+    bitrate 500000
+    up ifconfig $IFACE txqueuelen 1000
+```
+
 # Klipper configuration
 
 printer.cfg
