@@ -13,7 +13,7 @@ Note: In this document, I will describe how to set up CAN bus for Voron Trident 
 ## Required hardware
 - Huvud 0.61 CAN bus toolhead PCB
 - 120 Ohm SMD resistor
-- Waveshare RS-485/CAN HAT for Raspberry Pi
+- CANable Pro (preferred) or Waveshare RS-485/CAN HAT for Raspberry Pi
 - Raspberry Pi 3 or greater (cannot use Pi 0W or Pi 0W2)
 - CAN bus cable
 - Mechanical probe (Klicky, Euclid, Unklicky, etc...)
