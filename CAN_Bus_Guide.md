@@ -94,8 +94,8 @@ You must put a jumper on the pins BOOT1 and 3.3V then power cycle the board to p
 
 These values are for the CANable.  You may have to reduce the bitrate to 250000 and txqueuelen to 128 for the Waveshare adapter and even then you may have communication timeouts.
 
-```
 /etc/network/interfaces.d/can0
+```
 auto can0
 iface can0 can static
     bitrate 500000
