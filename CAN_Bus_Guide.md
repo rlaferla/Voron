@@ -145,3 +145,10 @@ run_current: 0.5
 sense_resistor: 0.110
 #stealthchop_threshold: 0
 ```
+
+# Troubleshooting
+
+If you are getting communication timeouts when homing, try:
+- Moving any USB peripherals to USB 3.x ports (on Pi 4 at least)
+- Reduce baud rate from 500,000 to 250,000
+- Upgrade Pi to Pi 4B 
