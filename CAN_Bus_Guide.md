@@ -163,5 +163,6 @@ sense_resistor: 0.110
 If you are getting communication timeouts when homing, try:
 - Moving any USB peripherals to USB 3.x ports (on Pi 4 at least)
 - Reduce baud rate from 500,000 to 250,000
+- Increase txqueuelen from 128 to 1000 (if your adapter can handle it)
 - Upgrade Pi to Pi 4B 
 - Check that CANL and CANH conductors in your cable are a twisted pair.  The power/gnd does not need to be twisted.  Shield the entire cable.
