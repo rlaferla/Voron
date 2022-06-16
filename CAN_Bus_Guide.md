@@ -166,3 +166,9 @@ If you are getting communication timeouts when homing, try:
 - Increase txqueuelen from 128 to 1000 (if your adapter can handle it)
 - Upgrade Pi to Pi 4B 
 - Check that CANL and CANH conductors in your cable are a twisted pair.  The power/gnd does not need to be twisted.  Shield the entire cable.
+
+# Upgrading
+
+```python lib/canboot/flash_can.py -i can0 -f ~/klipper_canbus/out/klipper.bin -u xxxxxxxxxxxx```
+
+where xxxxxxxxx is the unique ID of your specific CAN bus toolhead
