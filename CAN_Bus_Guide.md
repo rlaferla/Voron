@@ -172,3 +172,8 @@ If you are getting communication timeouts when homing, try:
 ```cd klipper; python lib/canboot/flash_can.py -i can0 -f ~/klipper_canbus/out/klipper.bin -u xxxxxxxxxxxx```
 
 where xxxxxxxxx is the unique ID of your specific CAN bus toolhead
+
+# See Also
+
+https://elinux.org/CAN_Bus
+
