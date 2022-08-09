@@ -158,6 +158,28 @@ sense_resistor: 0.110
 #stealthchop_threshold: 0
 ```
 
+
+# Input Shaping (ADXL) configuration
+
+```
+[input_shaper]
+shaper_type_x: zv
+shaper_freq_x: 63.0
+
+shaper_type_y: mzv
+shaper_freq_y: 39.8
+
+[adxl345]
+#cs_pin: rpi:None
+cs_pin: can_mcu:PB1
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+    175, 175, 20  # an example
+```
+
+    
 # Troubleshooting
 
 If you are getting communication timeouts when homing, try:
