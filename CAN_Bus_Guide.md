@@ -73,6 +73,9 @@ It is recommended to use a Canable or Canable Pro adapter.
 
 https://canable.io
 
+![image](https://user-images.githubusercontent.com/1135694/183714658-b94c5667-212e-4580-b198-0a6295e95575.png)
+
+
 The Waveshare RS485 CAN HAT will drop connections even with a RPi 4.
 
 https://www.waveshare.com/rs485-can-hat.htm
