@@ -69,7 +69,11 @@ https://github.com/bondus/KlipperToolboard
 # CAN bus adapter for Pi
 
 
-It is recommended to use a Canable Pro.  The Waveshare RS485 CAN HAT will drop connections even with a RPi 4.
+It is recommended to use a Canable or Canable Pro adapter.  
+
+https://canable.io
+
+The Waveshare RS485 CAN HAT will drop connections even with a RPi 4.
 
 https://www.waveshare.com/rs485-can-hat.htm
 Note:  Newer Waveshare boards have a 12M clock and not a 8M!
